@@ -65,7 +65,7 @@
 	
 	.banner-D-4 {
 		background-image: url("/division-4-banner.png");
-		background-position: left; 
+		background-position: right; 
 	}	
 
 	h2 {
