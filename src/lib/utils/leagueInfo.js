@@ -25,9 +25,27 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 // To omit an optional field, set it's value to null
 
 export const managers = [
+// 0
+    {
+      "managerID": "677643396080271360",
+      "name": "Cam Monari",
+      "tookOver": 2023,
+      "location": "Raleigh",  
+      "bio": "Lorem ipsum...",
+      "photo": "/managers/Cam.jpeg", 
+      "fantasyStart": 2017,
+      "favoriteTeam": "chi", 
+      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild'
+      "rival": {
+        name: "Rival", // Can be anything (usually your rival's name)
+        link: null, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/Colin.jpeg",
+      },
+    },
+// 1
     {
       "managerID": "342709265552740352",
-      "name": "Colin",
+      "name": "Colin 'Daddy Gally' Gallagher",
       "tookOver": 2023,
       "location": "Raleigh",  
       "bio": "Lorem ipsum...",
@@ -37,10 +55,10 @@ export const managers = [
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild'
       "rival": {
         name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
+        link: 1, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Colin.jpeg",
       },
-    }
+    },
 //     {
 //       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
 //       "name": "Your Name",
