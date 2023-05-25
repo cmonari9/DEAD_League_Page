@@ -31,15 +31,15 @@ export const managers = [
       "name": "Cam Monari",
       "tookOver": 2023,
       "location": "Raleigh",  
-      "bio": "Lorem ipsum...",
+      "bio": "My primary goal is to keep them all from killing each other",
       "photo": "/managers/Cam.jpeg", 
       "fantasyStart": 2017,
       "favoriteTeam": "chi", 
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild'
+      "mode": "Win Now", 
       "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: null, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/Colin.jpeg",
+        name: "Tate", 
+        link: 11, 
+        image: "/managers/Tate.jpeg",
       },
       "preferredContact": "Text",
     },
@@ -49,62 +49,198 @@ export const managers = [
       "name": "Colin 'Daddy Gally' Gallagher",
       "tookOver": 2023,
       "location": "Raleigh",  
-      "bio": "Lorem ipsum...",
+      "bio": "Papa, can we go sailing this weekend?",
       "photo": "/managers/Colin.jpeg", 
       "fantasyStart": 2014,
       "favoriteTeam": "cle", 
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild'
+      "mode": "Win Now", 
       "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 1, // manager array number within this array, or null to link back to all managers page
+        name: "Myself", 
+        link: 1, 
         image: "/managers/Colin.jpeg",
       },
       "preferredContact": "Text",
     },
-//     {
-//       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-//       "name": "Your Name",
-//       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-//       "location": "Brooklyn", // (optional)
-//       "bio": "Lorem ipsum...",
-//       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-//       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-//       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-//       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-//       "rival": {
-//         name: "Rival", // Can be anything (usually your rival's name)
-//         link: 6, // manager array number within this array, or null to link back to all managers page
-//         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-//       },
-//       "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-//       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-//       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-//       "philosophy": "Your fantasy team's philosophy",
-//       "tradingScale": 10, // 1 - 10
-//       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-//     },
-//     {
-//       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-//       "name": "Your Name",
-//       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-//       "location": "Brooklyn", // (optional)
-//       "bio": "Lorem ipsum...",
-//       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-//       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-//       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-//       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-//       "rival": {
-//         name: "Rival", // Can be anything (usually your rival's name)
-//         link: 6, // manager array number within this array, or null to link back to all managers page
-//         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-//       },
-//       "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-//       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-//       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-//       "philosophy": "Your fantasy team's philosophy",
-//       "tradingScale": 10, // 1 - 10
-//       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-//     },
+// 2
+    {
+      "managerID": "735944408888942592",
+      "name": "Dan Clinton",
+      "tookOver": 2023,
+      "location": "Raleigh",  
+      "bio": "Lorem ipsum...",
+      "photo": "/managers/question.jpg", 
+      "fantasyStart": 2014,
+      "favoriteTeam": "dal", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "Bring it on Dew", 
+        link: 5, 
+        image: "/managers/Greg.jpeg",
+      },
+      "preferredContact": "Text",
+    },
+// 3
+    {
+      "managerID": "858111724337905664",
+      "name": "Daniel 'Lieutenant Dan' Robles",
+      "tookOver": 2023,
+      "location": "Raleigh",  
+      "bio": "I'm just happy to be here.",
+      "photo": "/managers/Daniel.jpeg", 
+      "fantasyStart": 2022,
+      "favoriteTeam": "cin", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "The Other Dan", 
+        link: 2, 
+        image: "/managers/Dan.jpeg",
+      },
+      "preferredContact": "Text",
+    },
+// 4
+    {
+      "managerID": "858092353485946880",
+      "name": "Ellis Rushford",
+      "tookOver": 2023,
+      "location": "Raleigh",  
+      "bio": "Lorem ipsum...",
+      "photo": "/managers/Ellis.jpeg", 
+      "fantasyStart": 2014,
+      "favoriteTeam": "cle", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "Rival", 
+        link: 6, 
+        image: "/managers/Colin.jpeg",
+      },
+      "preferredContact": "Text",
+    },
+// 5
+    {
+      "managerID": "480871107226759168",
+      "name": "Greg Dew",
+      "tookOver": 2023,
+      "location": "Raleigh",  
+      "bio": "Lorem ipsum...",
+      "photo": "/managers/Greg.jpeg", 
+      "fantasyStart": 2014,
+      "favoriteTeam": "was", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "Clinton", 
+        link: 2, 
+        image: "/managers/question.jpg",
+      },
+      "preferredContact": "Text",
+    },
+// 6
+    {
+      "managerID": "735892608425005056",
+      "name": "Joe Faustyn",
+      "tookOver": 2023,
+      "location": "Raleigh",  
+      "bio": "Lorem ipsum...",
+      "photo": "/managers/Joe.jpeg", 
+      "fantasyStart": 2014,
+      "favoriteTeam": "ne", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "TBD", 
+        link: null, 
+        image: "/managers/everyone.png",
+      },
+      "preferredContact": "Text",
+    },
+// 7
+    {
+      "managerID": "858093403215380480",
+      "name": "Jordan Schultz",
+      "tookOver": 2023,
+      "location": "Raleigh",  
+      "bio": "Lorem ipsum...",
+      "photo": "/managers/Jordan.jpeg", 
+      "fantasyStart": 2014,
+      "favoriteTeam": "phi", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "TBD", 
+        link: null, 
+        image: "/managers/everyone.png",
+      },
+      "preferredContact": "Text",
+    },
+// 8
+    {
+      "managerID": "677653224232120320",
+      "name": "Justin Strickland",
+      "tookOver": 2023,
+      "location": "Raleigh",  
+      "bio": "Lorem ipsum...",
+      "photo": "/managers/Justin.jpeg", 
+      "fantasyStart": 2014,
+      "favoriteTeam": "car", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "TBD", 
+        link: null, 
+        image: "/managers/everyone.png",
+      },
+      "preferredContact": "Text",
+    },
+// 9
+    {
+      "managerID": "735887520348397568",
+      "name": "Rufo",
+      "tookOver": 2023,
+      "location": "Raleigh",  
+      "bio": "Everyone else are losers",
+      "photo": "/managers/question.jpg", 
+      "fantasyStart": 2014,
+      "favoriteTeam": "det", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "Everyone", 
+        link: null, 
+        image: "/managers/everyone.png",
+      },
+      "preferredContact": "Text",
+    },
+// 10
+    {
+      "managerID": "858093886919278592",
+      "name": "Nash Stallings",
+      "tookOver": 2023,
+      "location": "Raleigh",  
+      "bio": "Skol",
+      "photo": "/managers/Nash.jpeg", 
+      "fantasyStart": 2014,
+      "favoriteTeam": "min", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "Rufo", 
+        link: 9, 
+        image: "/managers/question.jpg",
+      },
+      "preferredContact": "Text",
+    },
+// 11
+    {
+      "managerID": "734217978672992256",
+      "name": "Tate O'Brochta",
+      "tookOver": 2023,
+      "location": "Raleigh",  
+      "bio": "Lorem ipsum...",
+      "photo": "/managers/Tate.jpeg", 
+      "fantasyStart": 2014,
+      "favoriteTeam": "pit", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "TBD", 
+        link: null, 
+        image: "/managers/everyone.png",
+      },
+      "preferredContact": "Text",
+    },
   ]
   
   
