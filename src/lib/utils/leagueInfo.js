@@ -64,12 +64,12 @@ export const managers = [
 // 2
     {
       "managerID": "735944408888942592",
-      "name": "Dan Clinton",
+      "name": "Dan 'DC' Clinton",
       "tookOver": 2023,
       "location": "Raleigh",  
       "bio": "Lorem ipsum...",
-      "photo": "/managers/question.jpg", 
-      "fantasyStart": 2014,
+      "photo": "/managers/Dan.jepg", 
+      "fantasyStart": "Before many of you were out of diapers",
       "favoriteTeam": "dal", 
       "mode": "Win Now", 
       "rival": {
