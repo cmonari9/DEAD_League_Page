@@ -41,6 +41,7 @@ export const managers = [
         link: null, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Colin.jpeg",
       },
+      "preferredContact": "Text",
     },
 // 1
     {
@@ -58,6 +59,7 @@ export const managers = [
         link: 1, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Colin.jpeg",
       },
+      "preferredContact": "Text",
     },
 //     {
 //       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
