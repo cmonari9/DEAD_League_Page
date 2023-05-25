@@ -68,7 +68,7 @@ export const managers = [
       "tookOver": 2023,
       "location": "Raleigh",  
       "bio": "Lorem ipsum...",
-      "photo": "/managers/Dan.jepg", 
+      "photo": "/managers/Dan.jpeg", 
       "fantasyStart": "Before many of you were out of diapers",
       "favoriteTeam": "dal", 
       "mode": "Win Now", 
