@@ -118,17 +118,17 @@ export const managers = [
 // 5
     {
       "managerID": "480871107226759168",
-      "name": "Greg Dew",
+      "name": "Greg 'Dew' Dew",
       "tookOver": 2023,
       "location": "Raleigh",  
-      "bio": "Lorem ipsum...",
+      "bio": "Live in Apex with wife and 7 yr old daughter. I joined Bandwidth in 2012 and shortly after became a Washington Commanders season ticket holder (10 years running, but not a brag, kind of sad tbh). Co-QB'ed the best damn flag football team the Holt Bros has ever seen for 3 years. Once won a fantasy football league 5 years in a row. Have probably hit 1000+ 3-pointers in hoops over Dan Clinton thruout Dan's BW tenure. Middle School Spelling Bee Champion- 2nd Alternate (pretty certain this is where I peaked in life)",
       "photo": "/managers/Greg.jpeg", 
-      "fantasyStart": 2014,
+      "fantasyStart": 2006,
       "favoriteTeam": "was", 
       "mode": "Win Now", 
       "rival": {
-        name: "Clinton", 
-        link: 2, 
+        name: "Unrivaled (but Dan Clinton will try)", 
+        link: null, 
         image: "/managers/question.jpg",
       },
       "preferredContact": "Text",
