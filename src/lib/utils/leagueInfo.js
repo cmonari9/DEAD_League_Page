@@ -7,7 +7,7 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>2023 Brought about a desire for change, a push for better competition, and for some, their first dynasty league. Thus the Dynasty to End All Dynasties was born.</p>
+  <p>2023 brought about a desire for change, a push for better competition, and for some, their first dynasty league. Thus the Dynasty to End All Dynasties was born.</p>
   <p>As our desire for more and better fantasy football grew, many of us joined our first dynasty league in 2021. While that league has been fun, a lack of full participation impacts the drive of others to play.</p>
   <p>In an effort to start over after bad mistakes while learning this new path, some members formed another league with some newer members folded in. This league fostered some natural rivalries and helped others realize, we were no longer in Kansas.</p>
   <p>So that brings us to now. Accross the two leagues we have 11 members actively engaged, looking to trade, communicate, and above all, compete. Take the lessons learned from previous mistakes and start fresh.</p>
