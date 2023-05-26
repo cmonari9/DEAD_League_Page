@@ -15,15 +15,6 @@ export const homepageText = `
   <p>Welcome to D.E.A.D. Welcome to the best of the best. The ones who are here to win, and plan to compete for a long time.</p>
 `;
 
-/*   STEP 3   */
-/*
-3 managers as an example. Uncomment (remove the //) before each line to make it live code
-If you're having trouble, reference the Training Wheels' Manager Section
-https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding-managers-and-changing-the-homepage-text
-*/
-
-// To omit an optional field, set it's value to null
-
 export const managers = [
 // 0
     {
@@ -226,7 +217,7 @@ export const managers = [
 // 11
     {
       "managerID": "734217978672992256",
-      "name": "Tate O'Brochta",
+      "name": "Tate 'The Man, The Myth, The Legend' O'Brochta",
       "tookOver": 2023,
       "location": "Raleigh",  
       "bio": "Lorem ipsum...",
