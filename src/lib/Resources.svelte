@@ -122,7 +122,7 @@ import { dynasty } from './utils/helper';
             icon: "calculate",
             premium: false,
             separator: true,
-            redraftOnly: true,
+            dynastyOnly: true,
         },
         {
             name: "Trade Calculator - Fantasy Trade Database",
@@ -130,7 +130,7 @@ import { dynasty } from './utils/helper';
             icon: "calculate",
             premium: false,
             separator: true,
-            redraftOnly: true,
+            dynastyOnly: true,
         },
         {
             name: "Trade Calculator - KTC",
