@@ -37,9 +37,9 @@ export const managers = [
       "favoriteTeam": "chi", 
       "mode": "Win Now", 
       "rival": {
-        name: "Tate", 
+        name: "I have every reason for it to be either of my division mates", 
         link: 11, 
-        image: "/managers/Tate.jpeg",
+        image: "/managers/everyone.png",
       },
       "preferredContact": "Text",
     },
@@ -67,9 +67,9 @@ export const managers = [
       "name": "Dan 'DC' Clinton",
       "tookOver": 2023,
       "location": "Raleigh",  
-      "bio": "Lorem ipsum...",
+      "bio": "If fair and consistent had an image in the dictionary it would be this guy. Hailing from the Live Free or Die state DC grew up a Dallas Cowboys fan. No one really knows why but if you ask those that knew him best it might be because of the Cheerleaders first and players second. DEAD is currently the only league to entice this CHEAP SOB into a larger sum buy in but when you have the mind to draw up plays like the Annexation of Puerto Rico the competition better bring their A game.",
       "photo": "/managers/Dan.jpeg", 
-      "fantasyStart": "Before many of you were out of diapers",
+      "fantasyStart": 1900,
       "favoriteTeam": "dal", 
       "mode": "Win Now", 
       "rival": {
@@ -154,7 +154,7 @@ export const managers = [
 // 7
     {
       "managerID": "858093403215380480",
-      "name": "Jordan Schultz",
+      "name": "Jordan 'Alabama is my real Favorite Team' Schultz",
       "tookOver": 2023,
       "location": "Raleigh",  
       "bio": "Lorem ipsum...",
