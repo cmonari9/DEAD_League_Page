@@ -19,7 +19,7 @@ export const managers = [
 // 0
     {
       "managerID": "677643396080271360",
-      "name": "Cam “Cam” Monari",
+      "name": "Cam “The Cammissioner” Monari",
       "tookOver": 2023,
       "location": "Raleigh",  
       "bio": "My primary goal is to keep them all from killing each other",
