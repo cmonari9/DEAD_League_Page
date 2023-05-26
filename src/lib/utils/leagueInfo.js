@@ -19,7 +19,7 @@ export const managers = [
 // 0
     {
       "managerID": "677643396080271360",
-      "name": "Cam Monari",
+      "name": "Cam “Cam” Monari",
       "tookOver": 2023,
       "location": "Raleigh",  
       "bio": "My primary goal is to keep them all from killing each other",
@@ -28,16 +28,16 @@ export const managers = [
       "favoriteTeam": "chi", 
       "mode": "Win Now", 
       "rival": {
-        name: "I have every reason for it to be either of my division mates...", 
+        name: "Tate", 
         link: 11, 
-        image: "/managers/everyone.png",
+        image: "/managers/Tate.jpeg",
       },
       "preferredContact": "Text",
     },
 // 1
     {
       "managerID": "342709265552740352",
-      "name": "Colin 'Daddy Gally' Gallagher",
+      "name": "Colin “Daddy Gally” Gallagher",
       "tookOver": 2023,
       "location": "Raleigh",  
       "bio": "Papa, can we go sailing this weekend?",
@@ -55,7 +55,7 @@ export const managers = [
 // 2
     {
       "managerID": "735944408888942592",
-      "name": "Dan 'DC' Clinton",
+      "name": "Dan “DC” Clinton",
       "tookOver": 2023,
       "location": "Raleigh",  
       "bio": "If fair and consistent had an image in the dictionary it would be this guy. Hailing from the Live Free or Die state DC grew up a Dallas Cowboys fan. No one really knows why but if you ask those that knew him best it might be because of the Cheerleaders first and players second. DEAD is currently the only league to entice this CHEAP SOB into a larger sum buy in but when you have the mind to draw up plays like the Annexation of Puerto Rico the competition better bring their A game.",
@@ -73,7 +73,7 @@ export const managers = [
 // 3
     {
       "managerID": "858111724337905664",
-      "name": "Daniel 'Lieutenant Dan' Robles",
+      "name": "Daniel “Lieutenant Dan” Robles",
       "tookOver": 2023,
       "location": "Raleigh",  
       "bio": "I'm just happy to be here.",
@@ -106,10 +106,10 @@ export const managers = [
       },
       "preferredContact": "Text",
     },
-// 5
+// 5 “”
     {
       "managerID": "480871107226759168",
-      "name": "Greg 'Dew' Dew",
+      "name": "Greg “Dew” Dew",
       "tookOver": 2023,
       "location": "Raleigh",  
       "bio": "Live in Apex with wife and 7 yr old daughter. I joined Bandwidth in 2012 and shortly after became a Washington Commanders season ticket holder (10 years running, but not a brag, kind of sad tbh). Co-QB'ed the best damn flag football team the Holt Bros has ever seen for 3 years. Once won a fantasy football league 5 years in a row. Have probably hit 1000+ 3-pointers in hoops over Dan Clinton thruout Dan's BW tenure. Middle School Spelling Bee Champion- 2nd Alternate (pretty certain this is where I peaked in life)",
@@ -145,7 +145,7 @@ export const managers = [
 // 7
     {
       "managerID": "858093403215380480",
-      "name": "Jordan 'Alabama is my real Favorite Team' Schultz",
+      "name": "Jordan “Alabama is my real Favorite Team” Schultz",
       "tookOver": 2023,
       "location": "Raleigh",  
       "bio": "Lorem ipsum...",
@@ -214,7 +214,7 @@ export const managers = [
       },
       "preferredContact": "Text",
     },
-// 11
+// 11 “”
     {
       "managerID": "734217978672992256",
       "name": "Tate “The Man, The Myth, The Legend” O'Brochta",
@@ -228,7 +228,7 @@ export const managers = [
       "rival": {
         name: "Cam - because he steals my draft prospects", 
         link: null, 
-        image: "/managers/Cam.png",
+        image: "/managers/Cam.jpeg",
       },
       "preferredContact": "Text",
     },
