@@ -79,7 +79,7 @@ import { dynasty } from './utils/helper';
         {
             name: "Insight - Fantasy Pros",
             url: `https://www.fantasypros.com/`,
-            icon: "assessment",
+            icon: "insights",
             premium: true,
             separator: true,
             dynastyOnly: true,
