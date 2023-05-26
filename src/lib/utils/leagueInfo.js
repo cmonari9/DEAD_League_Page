@@ -28,7 +28,7 @@ export const managers = [
       "favoriteTeam": "chi", 
       "mode": "Win Now", 
       "rival": {
-        name: "I have every reason for it to be either of my division mates", 
+        name: "I have every reason for it to be either of my division mates...", 
         link: 11, 
         image: "/managers/everyone.png",
       },
