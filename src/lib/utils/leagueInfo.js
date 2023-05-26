@@ -8,10 +8,10 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 /*   STEP 2   */
 export const homepageText = `
   <p>2023 Brought about a desire for change, a push for better competition, and for some, their first dynasty league. Thus the Dynasty to End All Dynasties was born.</p>
-  <p>As our desire for more and better fantasy football grew, many of us joined our first dynasty league in 2021. While that league has been fun, a lack of full participation by all impacts the drive of others to play.</p>
+  <p>As our desire for more and better fantasy football grew, many of us joined our first dynasty league in 2021. While that league has been fun, a lack of full participation impacts the drive of others to play.</p>
   <p>In an effort to start over after bad mistakes while learning this new path, some members formed another league with some newer members folded in. This league fostered some natural rivalries and helped others realize, we were no longer in Kansas.</p>
   <p>So that brings us to now. Accross the two leagues we have 11 members actively engaged, looking to trade, communicate, and above all, compete. Take the lessons learned from previous mistakes and start fresh.</p>
-  <p>But 11 is not 12, and our firm belief that 12 makes for the best balance. So we were left with no choice, but to bring in the one who everyone was slightly scared of. Someone who had always wanted to play dynasty, but could never get enough people to play. Someone so good at fantasy sports in general, another member claims a trophy from a fantasy baseball league is their most prized posession, because it involved beating this same individual.</p>
+  <p>But 11 is not 12, and we feel that 12 is the perfect team balance. So we were left with no choice, but to bring in someone who had always wanted to play dynasty, but could never get enough people to play. Someone so good at fantasy sports in general, another member claims a trophy from a fantasy baseball league is their most prized posession, because it involved beating this same individual.</p>
   <p>Welcome to D.E.A.D. Welcome to the best of the best. The ones who are here to win, and plan to compete for a long time.</p>
 `;
 
