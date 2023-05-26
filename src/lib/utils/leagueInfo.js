@@ -217,18 +217,18 @@ export const managers = [
 // 11
     {
       "managerID": "734217978672992256",
-      "name": "Tate 'The Man, The Myth, The Legend' O'Brochta",
+      "name": "Tate “The Man, The Myth, The Legend” O'Brochta",
       "tookOver": 2023,
       "location": "Raleigh",  
-      "bio": "Lorem ipsum...",
+      "bio": "“The standard is the standard - Mike Tomlin” - Tate O’Brochta ",
       "photo": "/managers/Tate.jpeg", 
-      "fantasyStart": 2014,
+      "fantasyStart": 2004,
       "favoriteTeam": "pit", 
       "mode": "Win Now", 
       "rival": {
-        name: "TBD", 
+        name: "Cam - because he steals my draft prospects", 
         link: null, 
-        image: "/managers/everyone.png",
+        image: "/managers/Cam.png",
       },
       "preferredContact": "Text",
     },
