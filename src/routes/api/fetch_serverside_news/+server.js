@@ -4,14 +4,12 @@ import { dynasty } from '$lib/utils/helper';
 import { json } from '@sveltejs/kit';
 
 const FF_BALLERS= 'https://thefantasyfootballers.libsyn.com/fantasyfootball';
-const FTN_NEWS= 'https://www.ftnfantasy.com/content/news?type=news&sport=nfl&limit=30';
 const DYNASTY_LEAGUE= 'https://dynastyleaguefootball.com/feed/';
 const DYNASTY_NERDS= 'https://www.dynastynerds.com/feed/';
 
 export async function GET() {
 	const articles = [
         getXMLArticles(FF_BALLERS, processFF),
-        getJSONArticles(FTN_NEWS, processFTN),
 	];
 	if(dynasty) {
 		articles.push(getXMLArticles(DYNASTY_LEAGUE, processDynastyLeague));
@@ -62,29 +60,6 @@ const processFF = (articles) => {
 			title: article.title,
 			article: article.description,
 			link: article.link,
-			author: `FTN Fantasy`,
-			ts,
-			date,
-			icon,
-		});
-	}
-	return finalArticles;
-}
-
-const processFTN = (rawArticles) => {
-	let finalArticles = [];
-	const items = rawArticles.items;
-	for(const article of items) {
-		// only grab important info
-		if(article.priority > 3) continue;
-		const ts = Date.parse(article.datetime);
-		const d = new Date(ts);
-		const date = stringDate(d);
-		const icon = 'newsIcons/ftn.png';
-		finalArticles.push({
-			title: article.short_text,
-			article: article.text,
-			link: `https://www.ftnfantasy.com/nfl${article.link}`,
 			author: `FTN Fantasy`,
 			ts,
 			date,
