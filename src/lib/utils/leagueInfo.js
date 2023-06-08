@@ -7,12 +7,14 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>2023 brought about a desire for change, a push for better competition, and for some, their first dynasty league. Thus the Dynasty to End All Dynasties was born.</p>
-  <p>As our desire for more and better fantasy football grew, many of us joined our first dynasty league in 2021. While that league has been fun, a lack of full participation impacts the drive of others to play.</p>
-  <p>In an effort to start over after bad mistakes while learning this new path, some members formed another league with some newer members folded in. This league fostered some natural rivalries and helped others realize, we were no longer in Kansas.</p>
-  <p>So that brings us to now. Accross the two leagues we have 11 members actively engaged, looking to trade, communicate, and above all, compete. Take the lessons learned from previous mistakes and start fresh.</p>
-  <p>But 11 is not 12, and we feel that 12 is the perfect team balance. So we were left with no choice, but to bring in someone who had always wanted to play dynasty, but could never get enough people to play. Someone so good at fantasy sports in general, another member claims a trophy from a fantasy baseball league is their most prized posession, because it involved beating this same individual.</p>
-  <p>Welcome to D.E.A.D. Welcome to the best of the best. The ones who are here to win, and plan to compete for a long time.</p>
+  <p>Welcome, football fanatics, to the most prestigious and electrifying event in the realm of fantasy football! Brace yourselves as we unveil a league that will revolutionize the very essence of dynasty fantasy football—the Dynasty to End All Dynasties!</p>
+  <p>In this hallowed competition, the gridiron gladiators will rise and fall, forging their paths to immortal greatness. It is here that seasoned veterans and strategic newcomers converge, bound by their shared passion for the game, armed with boundless knowledge, and driven by an insatiable hunger for victory.</p>
+  <p>The Dynasty to End All Dynasties embraces the concept of "forever football." Forget the transient nature of traditional fantasy leagues—this is your chance to build a football empire that stands the test of time. We invite you to immerse yourself in the thrill of crafting an enduring legacy, assembling a roster of gridiron warriors that will withstand the tides of fortune and leave an indelible mark on the annals of fantasy football.</p>
+  <p>Prepare to embark on a journey like no other, where draft days become seismic events and each trade carries the weight of dynasty destiny. The challenges are boundless, as you navigate the treacherous terrain of injuries, roster management, and the ever-changing landscape of the NFL. Every decision you make holds the power to shape the destiny of your team, with far-reaching consequences that ripple across seasons and reverberate through history.</p>
+  <p>Here, friendships will be forged and rivalries will ignite, as owners vie for the coveted title of dynasty champion. The Dynasty to End All Dynasties is not merely a league—it is a community of football enthusiasts united by a shared dream. Engage in spirited debates, tactical discussions, and friendly banter with fellow owners who, like you, are captivated by the eternal allure of football glory.</p>
+  <p>As the season unfolds, prepare for heart-stopping victories and heartbreaking defeats, each moment etching itself into the tapestry of this extraordinary league. Witness the rise of promising rookies, the resurgence of legendary veterans, and the strategic brilliance of cunning coaches. Here, fantasy and reality merge, as you navigate the thrilling intersection of NFL action and your meticulously constructed dynasty roster.</p>
+  <p>So, gather your wits, sharpen your strategy, and brace yourself for the ultimate fantasy football challenge. The Dynasty to End All Dynasties beckons you to rise above the rest, leave an indomitable mark on the gridiron, and etch your name among the immortals.</p>
+  <p>Welcome, brave owners, to a realm where dynasties are born, legends are made, and the pursuit of football glory knows no bounds. Welcome to the Dynasty to End All Dynasties!</p>
 `;
 
 export const managers = [
@@ -22,7 +24,7 @@ export const managers = [
       "name": "Cam “The Cammissioner” Monari",
       "tookOver": 2023,
       "location": "Raleigh",  
-      "bio": "My primary goal is to keep them all from killing each other",
+      "bio": "After doing fantasy on and off for many years, I never had a real grasp on fantasy. I knew players and would honestly do well by pure luck a lot of times. My first real experience came in 2021, starting two dynasties, making many mistakes, and learning from them. My primary goal is to keep them all from killing each other, my secondary goal is to take what I've had to learn, and grow, and make this my best team yet.",
       "photo": "/managers/Cam.jpeg", 
       "fantasyStart": 2017,
       "favoriteTeam": "chi", 
@@ -94,15 +96,15 @@ export const managers = [
       "name": "Ellis Rushford",
       "tookOver": 2023,
       "location": "Raleigh",  
-      "bio": "Lorem ipsum...",
+      "bio": "Oorah",
       "photo": "/managers/Ellis.jpeg", 
       "fantasyStart": 2014,
       "favoriteTeam": "cle", 
       "mode": "Win Now", 
       "rival": {
-        name: "Rival", 
-        link: 6, 
-        image: "/managers/Colin.jpeg",
+        name: "Cam", 
+        link: 0, 
+        image: "/managers/Cam.jpeg",
       },
       "preferredContact": "Text",
     },
@@ -136,9 +138,9 @@ export const managers = [
       "favoriteTeam": "ne", 
       "mode": "Win Now", 
       "rival": {
-        name: "TBD", 
+        name: "Joe", 
         link: null, 
-        image: "/managers/everyone.png",
+        image: "/managers/Joe.png",
       },
       "preferredContact": "Text",
     },
@@ -148,15 +150,15 @@ export const managers = [
       "name": "Jordan “Alabama is my real Favorite Team” Schultz",
       "tookOver": 2023,
       "location": "Raleigh",  
-      "bio": "Lorem ipsum...",
+      "bio": "If they went to Alabama, I will try to draft them",
       "photo": "/managers/Jordan.jpeg", 
       "fantasyStart": 2014,
       "favoriteTeam": "phi", 
       "mode": "Win Now", 
       "rival": {
-        name: "TBD", 
+        name: "Jordan", 
         link: null, 
-        image: "/managers/everyone.png",
+        image: "/managers/Jordan.jpeg",
       },
       "preferredContact": "Text",
     },
@@ -166,15 +168,15 @@ export const managers = [
       "name": "Justin Strickland",
       "tookOver": 2023,
       "location": "Raleigh",  
-      "bio": "Lorem ipsum...",
+      "bio": "If his name is DJ Moore, he is likely on my team",
       "photo": "/managers/Justin.jpeg", 
       "fantasyStart": 2014,
       "favoriteTeam": "car", 
       "mode": "Win Now", 
       "rival": {
-        name: "TBD", 
+        name: "Justin", 
         link: null, 
-        image: "/managers/everyone.png",
+        image: "/managers/Justin.jpeg",
       },
       "preferredContact": "Text",
     },
@@ -227,7 +229,7 @@ export const managers = [
       "mode": "Win Now", 
       "rival": {
         name: "Cam - because he steals my draft prospects", 
-        link: null, 
+        link: 0, 
         image: "/managers/Cam.jpeg",
       },
       "preferredContact": "Text",
