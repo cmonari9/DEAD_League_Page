@@ -56,9 +56,11 @@
     })
 
     const changeManager = (newManager, noscroll = false) => {
+        if(!newManager) {
+            goto(`/managers`);
+        }
         manager = newManager;
-
-        goto(`/manager?manager=${manager}`, {noscroll})
+        goto(`/manager?manager=${newManager}`, {noscroll});
     }
 </script>
 
@@ -292,7 +294,7 @@
 
     {#if !loading}
         <!-- Favorite player -->
-        <ManagerFantasyInfo {viewManager} {players} />
+        <ManagerFantasyInfo {viewManager} {players} {changeManager} />
     {/if}
 
     <ManagerAwards {leagueTeamManagers} tookOver={viewManager.tookOver} {awards} {records} {rosterID} managerID={viewManager.managerID} />
